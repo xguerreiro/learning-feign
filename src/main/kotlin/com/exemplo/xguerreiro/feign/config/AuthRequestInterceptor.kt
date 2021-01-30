@@ -1,4 +1,4 @@
-package com.exemplo.xguerreiro.feignutil.config
+package com.exemplo.xguerreiro.feign.config
 
 import com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER
 import feign.RequestTemplate

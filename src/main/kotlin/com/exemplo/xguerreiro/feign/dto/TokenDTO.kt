@@ -1,6 +1,5 @@
-package com.exemplo.xguerreiro.feignutil.dto
+package com.exemplo.xguerreiro.feign.dto
 
-import com.exemplo.xguerreiro.feignutil.response.TokenResponse
 import com.fasterxml.jackson.annotation.JsonProperty
 
 data class TokenDTO (

@@ -1,4 +1,4 @@
-package com.exemplo.xguerreiro.feignutil
+package com.exemplo.xguerreiro.feign
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

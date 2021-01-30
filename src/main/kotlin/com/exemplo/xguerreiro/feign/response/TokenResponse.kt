@@ -1,4 +1,4 @@
-package com.exemplo.xguerreiro.feignutil.response
+package com.exemplo.xguerreiro.feign.response
 
 class TokenResponse (
         val accessToken: String,

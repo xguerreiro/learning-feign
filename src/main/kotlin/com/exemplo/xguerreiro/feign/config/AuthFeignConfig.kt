@@ -1,4 +1,4 @@
-package com.exemplo.xguerreiro.feignutil.config
+package com.exemplo.xguerreiro.feign.config
 
 import org.springframework.context.annotation.Bean
 
