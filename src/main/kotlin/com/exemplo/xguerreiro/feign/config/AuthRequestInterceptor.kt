@@ -8,7 +8,6 @@ class AuthRequestInterceptor : RequestInterceptor {
 
     override fun apply(template: RequestTemplate) {
         template.header("Authorization", "Basic ZGVtby1iYWNrZW5kLWNsaWVudDpNSmxPM2JpbmF0RDlqazE=")
-        LOGGER.info("authconfigurator authentication applied")
     }
 
 }

@@ -7,10 +7,10 @@ import org.springframework.util.MultiValueMap
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.ResponseBody
 
-@FeignClient("tokenService", url = "https://login-demo.curity.io/oauth", configuration = [AuthFeignConfig::class])
+@FeignClient("tokenService", url = "\${service.token.host}", configuration = [AuthFeignConfig::class])
 interface TokenService {
 
-    @PostMapping("/v2/oauth-token", consumes = ["application/x-www-form-urlencoded"])
+    @PostMapping("\${service.token.uri}", consumes = ["application/x-www-form-urlencoded"])
     @ResponseBody
     fun findToken(formParams : MultiValueMap<String,String>): TokenDTO
 }

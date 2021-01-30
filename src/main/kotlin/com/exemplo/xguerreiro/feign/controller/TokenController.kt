@@ -21,8 +21,8 @@ class TokenController(private val tokenService: TokenService) {
         mapForm.add("scope", "read")
 
         val tokenDTO = tokenService.findToken(mapForm);
-        val tokenResponse = TokenResponse(tokenDTO.accessToken, tokenDTO.expiresIn, tokenDTO.scope, tokenDTO.tokenType);
-        return tokenResponse;
+        val tokenResponse = TokenResponse(tokenDTO.accessToken, tokenDTO.expiresIn, tokenDTO.scope, tokenDTO.tokenType)
+        return tokenResponse
     }
 
 }
